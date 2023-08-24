@@ -13,7 +13,7 @@ class BsicCache(BaseCaching):
     def put(self, key, item):
         """Method to add item to the
         """
-        if key is None or item not in self.cache_data:
+        if key is None or item is None:
             return
         self.cache_data[key] = item
 
