@@ -18,4 +18,4 @@ class BsicCache(BaseCaching):
     def get(self, key):
         """Method to return an item.
         """
-        return self.cache_data(key, None)
+        return self.cache_data.get(key, None)
