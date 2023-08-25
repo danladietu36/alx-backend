@@ -29,7 +29,8 @@ class Server:
         return self.__dataset
 
     def indexed_dataset(self) -> Dict[int, List]:
-        """Function for Dataset indexed by sorting position, starting at 0 (zero)
+        """Function for Dataset indexed by sorting position, starting
+        at 0 (zero)
         """
         if self.__indexed_dataset is None:
             dataset = self.dataset()
