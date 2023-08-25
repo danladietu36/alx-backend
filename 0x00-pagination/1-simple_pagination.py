@@ -37,6 +37,6 @@ class Server:
         res = []
 
         if start >= len(self.dataset()):
-            return res_list
+            return res
         res = self.dataset()
         return res[start:end]
