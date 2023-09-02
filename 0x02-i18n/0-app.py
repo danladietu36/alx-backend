@@ -14,8 +14,7 @@ app = Flask(__name__)
 def hello():
     """
     Greeting function that only returns
-    a string 
-
+    a string
     """
     return render_template('0-index.html')
 
